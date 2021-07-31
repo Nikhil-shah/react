@@ -16,6 +16,13 @@ export class CustomDataTable extends Component {
             products: [],
             globalFilter: ''
         };
+        this.reset = this.reset.bind(this);
+    }
+
+    reset() {
+        this.setState({
+            globalFilter: ''
+        });
     }
 
     componentDidMount() {
