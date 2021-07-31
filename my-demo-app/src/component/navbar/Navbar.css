@@ -1,0 +1,78 @@
+
+.navbar-logo {
+    color:#fff;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(144, 144, 145) 0%, rgb(68, 67, 68) 100%);
+  }
+  
+  .topnav a, Button {
+    margin-top: 10px;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 21px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:#915d5d;
+    color: #fff;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background: linear-gradient(180deg, rgb(144, 144, 145) 0%, rgb(68, 67, 68) 100%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    background-color:#915d5d;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
